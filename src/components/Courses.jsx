@@ -24,7 +24,11 @@ function Courses() {
           }
           actions={[
             <Tooltip title="Shop Now">
-              <ShoppingCartOutlined style={{ fontSize: 20 }} key="ellipsis" />
+              <span style={{ color: "pink" }}>Buy the course</span>
+              <ShoppingCartOutlined
+                style={{ fontSize: 20, color: "pink" }}
+                key="ellipsis"
+              />
             </Tooltip>,
           ]}>
           <Meta
@@ -50,7 +54,11 @@ function Courses() {
           }
           actions={[
             <Tooltip title="Shop Now">
-              <ShoppingCartOutlined style={{ fontSize: 20 }} key="ellipsis" />
+              <span style={{ color: "pink" }}>Buy the course</span>
+              <ShoppingCartOutlined
+                style={{ fontSize: 20, color: "pink" }}
+                key="ellipsis"
+              />
             </Tooltip>,
           ]}>
           <Meta
