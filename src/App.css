@@ -1,0 +1,47 @@
+.App {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #ffc0cb;
+  text-align: center;
+}
+
+.bio,
+.courses,
+.testimonials,
+.gallery,
+.schedule {
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.contact {
+  padding: 20px;
+  margin: 0;
+}
+
+.header {
+  padding: 20px;
+  margin: 0;
+}
+
+.header-title {
+  font-family: "Georgia", serif;
+  font-size: 2.5em;
+  color: #f9f6ee;
+}
+
+.header-description {
+  font-family: "Arial", sans-serif;
+  color: #f9f6ee;
+}
+
+.bio-title,
+.courses-title,
+.testimonials-title,
+.gallery-title,
+.schedule-title,
+.contact-title {
+  font-family: "Georgia", serif;
+  font-size: 2em;
+  color: #f9f6ee;
+}
