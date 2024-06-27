@@ -27,12 +27,18 @@
 .header-title {
   font-family: "Georgia", serif;
   font-size: 2.5em;
-  color: #f9f6ee;
+  color: #f8edd1;
 }
 
-.header-description {
+.header-description,
+h3,
+h2 {
   font-family: "Arial", sans-serif;
-  color: #f9f6ee;
+  color: #fcf7e9;
+}
+span,
+p {
+  color: #fcf7e9;
 }
 
 .bio-title,
@@ -43,5 +49,5 @@
 .contact-title {
   font-family: "Georgia", serif;
   font-size: 2em;
-  color: #f9f6ee;
+  color: #f8edd1;
 }
