@@ -10,6 +10,7 @@ import Contact from "./components/Contact";
 import { Bounce, Roll, LightSpeed, Zoom, Rotate } from "react-reveal";
 import { Divider, Flex, Image } from "antd";
 import Logo from "./assets/logo2.jpg";
+import { Parallax, ParallaxProvider } from "react-scroll-parallax";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -43,19 +44,21 @@ function App() {
     </Flex>
   ) : (
     <div className="App">
-      <Header />
-      <Divider />
-      <Bio />
-      <Divider />
-      <Courses />
-      <Divider />
-      <Gallery />
-      <Divider />
-      <Schedule />
-      <Divider />
-      <Testimonials />
-      <Divider />
-      <Contact />
+      <ParallaxProvider>
+        <Header />
+        <Divider />
+        <Bio />
+        <Divider />
+        <Courses />
+        <Divider />
+        <Gallery />
+        <Divider />
+        <Schedule />
+        <Divider />
+        <Testimonials />
+        <Divider />
+        <Contact />
+      </ParallaxProvider>
     </div>
   );
 }

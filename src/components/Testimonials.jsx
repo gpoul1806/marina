@@ -1,6 +1,7 @@
 import { Carousel } from "antd";
 import React from "react";
 import { Zoom } from "react-reveal";
+import { ParallaxBanner } from "react-scroll-parallax";
 
 function Testimonials() {
   return (

@@ -10,8 +10,7 @@
 .testimonials,
 .gallery,
 .schedule {
-  padding: 20px;
-  margin: 20px 0;
+  padding: 0px;
 }
 
 .contact {
@@ -50,4 +49,9 @@ p {
   font-family: "Georgia", serif;
   font-size: 2em;
   color: #f8edd1;
+}
+
+.description {
+  color: #fcf7e9;
+  padding: 1svh 10svw;
 }
